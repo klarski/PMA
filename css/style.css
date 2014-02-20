@@ -1,0 +1,476 @@
+/**************************General CSS*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e0d8cb;
+}
+
+p, a {
+	font-size: 1em;
+}
+
+p, a, h2, h3, h4, h5, li, span {
+	font-family: 'Telex', sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+h1{
+	font-family: 'Oleo Script', cursive;
+	font-weight: 400;
+	font-size: 2.25em;
+}
+
+h2{
+	font-size: 1.375em;
+}
+
+h3 {
+	font-size: 1.125em;
+}
+
+h4{
+	font-size: 1em;
+}
+h5 {
+	font-size: 0.75em;
+}
+
+h6 {
+	font-size:0.635em;
+}
+
+p {
+	font-size: 0.875em;
+}
+
+a:hover {
+	color: #444;
+
+}
+
+#wrapper {
+	width: 100%; /*960px*/
+	margin: 0 auto;
+}
+
+.image{
+   position: relative; 
+   width: 100%
+}
+
+.service_hero {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 10.416666%;
+}
+
+/*****************************Nav*/
+
+nav {
+	width: 100%;
+	height: 20px;
+	margin: 20px 0;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+nav ul{
+	margin:0 0 0 10.416666%;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin:0 10px;
+	color: #f5f2eb;
+}
+
+nav a {
+	text-decoration: none;
+	color: #f5f2eb;
+}
+
+nav a:hover{
+	background-color: #641500;
+	color: #f5f2eb;
+	padding: 10px 0;
+}
+
+
+.number {
+	padding: 0 0 0 20.833%;
+}
+
+.logo {
+	margin: 20px 0 0 40.8333%;
+	display: block;
+}
+
+
+/****************** Home page content */
+
+.hours {
+	clear: both;
+	text-align: center;	
+	max-width: 960px;
+	margin: 0 10.416666%;
+}  
+
+#hero {
+	width: 80%;
+	max-width: 960px;
+	height: auto;
+	margin: 0 10.416666%;
+}
+
+.videos {
+	clear: both;
+	margin-right:10.416666%;
+	margin-left:10.416666%;
+}
+
+
+#video_left{
+	width: 40%;
+	float: left;
+	margin-right: 12%;
+	margin-bottom: 30px;
+}
+
+#video_right {
+	float: left;
+}
+
+/***Testimonial Slider Styling */
+blockquote {
+	background-color: #a33a10;
+	font-family: 'Telex', sans-serif; 
+    clear: both;
+    font-style: bold;
+    color:#f5f2eb;
+    padding: 10px 10.416666% 0 10.416666%;
+    position: relative;
+    quotes: none;
+    font-size: 120%;
+    line-height: 200%;
+ }
+
+#testimonials {
+	width:100%;
+}
+
+#testimonials p{
+	text-align:right;
+	margin-right: 2.083%;
+}
+
+/****************** Menu page content */
+
+#menu_content {
+	width:90%;
+	max-width: 960px;
+	margin: 0 10.416666% 30px 10.416666%;
+}
+	
+
+#sub_nav li {
+	text-align: center;
+	padding: 20px 0;
+	list-style-type: none;
+	padding: 5px 1.041%;
+}
+#sub_nav ul {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+
+    -moz-column-gap: 4;
+    -webkit-column-gap: 4;
+    column-gap: 4;
+    margin-left: 5.208%;
+}
+
+#sub_nav a {
+	text-decoration: none;
+	color: #a33a10;
+}
+
+#sub_nav a:hover{
+	color: #f5f2eb;
+	font-weight: bold;
+}
+
+#menu_items{
+	clear: both;
+}
+
+#menu_items h2 {
+	font-family:  'Oleo Script', cursive;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	border-bottom: 3px solid #000;
+}
+
+#menu_items h3 {
+	margin: 5px 0;
+} 
+#menu_items p {
+	padding-left: 1.5625%;
+	margin-bottom: 3px;
+}
+
+#rib_pic, #sand_pic, #sides_pic{
+	width: 30%;
+	height: auto;
+	float: right;
+	border:3px solid #000;
+	margin: 10px 1.041%;
+}
+
+
+/****************** Catering page content */
+
+
+#catering_content {
+	width: 100%;
+	max-width:960px;
+	margin: 0 10.416666% 30px 10.416666%;
+}
+
+#catering_content li{
+	list-style-type: none;
+}
+
+#cateringimg {
+	width: 30%;
+	height: auto;
+	float: right;
+	margin: 20px 1.041% 20px 2.083%;
+}
+
+#catering_des {
+	margin-left: 3.125%;
+}
+
+#catering_des li {
+	list-style-type: circle;
+}
+
+
+/****************** About Us page content */
+#about_us_content {
+	width:100%;
+	max-width: 960px;
+	margin: 0 10.416666% 40px 10.416666%;
+}
+
+#about_us_content img {
+	width: 35%;
+	height: auto;
+	float: right;
+	border: 3px solid #000;
+	margin: 10px 0 10px 1.014%;
+}
+
+#about_us_content p {
+	width: 55%;
+	float: left;
+	padding: 10px 0;
+}
+
+/****************** Location page content */
+
+#location_content {
+	width:100%;
+	max-width: 960px;
+	margin: 0 10.416666% 30px 10.416666%;
+}
+
+
+#location_content {
+	clear: both;
+}
+
+#hd_text{
+	float: left;
+	width: 60%;
+}
+#map {
+	float: right;
+}
+
+
+/****************** Contact Us page content */
+
+#contact_content {
+	width:100%;
+	max-width: 960px;
+	margin: 0 10.416666% 30px 10.416666%;
+}
+
+form, input {
+	padding-top: 10px;
+	padding-right: 40.626%;
+}
+
+textarea {
+	padding-top: 100px;
+	padding-right: 36.458%;
+
+}
+
+#storefront img {
+	width:35%;
+	height:auto;
+	border: 3px solid #000;
+	float: right;
+	margin: 10px 0 30px 1.041%;
+}
+
+button {
+	width: 30%;
+	height: 40px;
+	float: right;
+	margin-right:10.416666%;
+	background-color:#ce6a23;
+	border: none;
+	color: #f5f2eb;
+	font-family: 'Telex', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 10px;
+	padding: 10px;
+}
+button:hover {
+	width: 30%;
+	height: 40px;
+	float: right;
+	margin-right:10.416666%;
+	background-color:#68020d;
+	border: none;
+	color: #f5f2eb;
+	font-family: 'Telex', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+/************************************Footer */
+footer {
+	clear: both;
+	background-color: #000;
+	width: 100%;
+	height: 125px;
+}
+
+footer p, footer h4 {
+	float: left;
+	list-style-type: none;
+	padding: 25px 2.083% 20px 3.125%;
+}
+
+footer img {
+	padding: 20px .5208%;
+}
+
+footer a {
+	text-decoration: none;
+	color: #f5f2eb;
+}
+
+footer ul{
+	float: left;
+	list-style-type: none;
+	padding: 25px 2.083% 20px 3.125%;
+}
+
+#foot_links {
+	margin-left: 10.416666%;
+}
+
+footer p, footer h4 {
+	color: #f5f2eb;
+}
+
+/**************************** Media Queries */
+/* Responsive Nav Start */
+
+/* Responsive Nav End */
+
+@media screen and (max-width: 768px) {
+
+.logo {
+	margin: 0 auto;
+}
+.number {
+	display: none;
+}
+.hours {
+	display: none;
+}
+
+#sand_pic {
+	display: none;
+}
+
+#rib_pic {
+	display: none;
+}
+
+#sides_pic {
+	display: none;
+}
+nav {
+	width: 100%;
+	height: 40px;
+	margin: 20px 0;
+	padding: 20px 0;
+	background-color: #000;
+}
+}
+@media screen and (max-width: 480px) {
+
+
+#about_us_content img{
+	display: none;
+}
+#about_us_content p{
+	width: 80%;
+}
+
+#video_right {
+	display: none;
+}
+
+#video_left {
+	width: 100%;
+}
+
+#storefront{
+	display: none;
+}
+#contact-form {
+	width: 100%;
+}
+#foot_links{
+	display: none;
+}
+#follow_us {
+	display: none;
+}
+
+}
+@media screen and (max-width: 320px) {
+
+
+}
