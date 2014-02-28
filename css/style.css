@@ -48,11 +48,16 @@ h6 {
 
 p {
 	font-size: 0.875em;
+	width: 80%;
 }
 
 a:hover {
 	color: #444;
 
+}
+
+video{
+	display: block;
 }
 
 #wrapper {
