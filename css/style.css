@@ -58,6 +58,7 @@ a:hover {
 
 video{
 	display: block;
+	float: left;
 }
 
 #wrapper {
